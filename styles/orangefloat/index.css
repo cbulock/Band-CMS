@@ -1,0 +1,90 @@
+*
+{
+	font-size: 12px;
+  font-family: monospace;
+}
+
+body
+{
+	background: #777777;
+	height: 100%;
+	margin: 0;
+	font-family: serif;
+	text-align: center;
+	height: auto;
+}
+
+a img
+{
+	border: none;
+}
+
+a
+{
+	color: #000000;
+}
+
+a:hover
+{
+	color: #aaaaaa;
+}
+
+#header
+{
+	height: 80px;
+	background: #222222 url('orange_banner.png') no-repeat right bottom;
+}
+
+#sitemenu
+{
+	height: 20;
+	padding: 3px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 0;
+	margin-bottom: 0;
+	border: none;
+  border-bottom: 3px solid #aa7700;
+	background: #777777;
+  text-align: center;
+}
+
+#sitemenu a
+{
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 3px;
+  padding-top: 3px;
+}
+
+#sitebody
+{
+
+}
+
+#footer
+{
+	background: #222222;
+	height: 20px;
+	padding: 0px;
+	border: none;
+  border-top: 3px solid #aa7700;
+	font-style: normal;
+	text-align: center;
+	color: #aaaaaa;
+}
+
+#footer a
+{
+	color: #aa8822;
+}
+
+#footer a:hover
+{
+	color: #cccccc;
+}
+
+#maintable
+{
+	width: 75%;
+}

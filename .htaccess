@@ -1,0 +1,4 @@
+RewriteEngine On
+Options +FollowSymlinks
+
+RewriteRule ^pages/(.*)/?$ modules/pages/index.php?menu_title=$1 [L]
