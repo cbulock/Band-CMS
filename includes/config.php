@@ -3,9 +3,9 @@
 	include_once('functions.php');
   
   define('DB_HOSTNAME', 'localhost');
-	define('DB_DATABASE', 'cbulock_cmstest');
-	define('DB_USERNAME', 'cbulock_cbulock');
-	define('DB_PASSWORD', 'madeforyou');
+	define('DB_DATABASE', '');
+	define('DB_USERNAME', '');
+	define('DB_PASSWORD', '');
 	define('DB_PREFIX', ''); //prefix to tack on to all tables in the database (leave blank for none)
   
 	$link = mysql_connect(DB_HOSTNAME, DB_USERNAME, DB_PASSWORD) or die('Database connection failed.');
